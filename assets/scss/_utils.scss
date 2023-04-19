@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	// overflow-x: hidden;
+	color: $dark-color;
+	font-size: 12pt;
+}
+
+.btn {
+    padding: 1em 2em;
+    border: 0px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.btn-gradient {
+    color: white;
+    background-image: linear-gradient(to right, $accent-color, $secondary-color);
+    transition: .3s;
+
+    &:hover {
+        background: white;
+        color: $secondary-color;
+        border: 1px solid $secondary-color;
+        transition: .3s;
+    }
+}

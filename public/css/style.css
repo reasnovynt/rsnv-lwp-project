@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  color: #130A22;
+  font-size: 12pt;
+}
+
+.btn {
+  padding: 1em 2em;
+  border: 0px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.btn-gradient {
+  color: white;
+  background-image: linear-gradient(to right, #00B7FF, #6436C8);
+  transition: 0.3s;
+}
+.btn-gradient:hover {
+  background: white;
+  color: #6436C8;
+  border: 1px solid #6436C8;
+  transition: 0.3s;
+}
+
+.container {
+  margin: 0 8.3333333333%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin: 20px 0px;
+  justify-content: space-between;
+  width: 100% auto;
+}
+
+[class*=col-] {
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  z-index: 100;
+  position: fixed;
+  padding: 1em 0em;
+  background-color: #EEC249;
+  width: 100%;
+  height: 24px;
+}
+.navbar .navbar-left {
+  display: inline-flex;
+  float: left;
+}
+.navbar .navbar-left .navbar-logo {
+  font-weight: bold;
+}
+.navbar .navbar-right {
+  display: inline-flex;
+  float: right;
+}
+.navbar .navbar-right .navbar-menu {
+  display: flex;
+  gap: 1em;
+  text-align: center;
+}
+.navbar .navbar-right .navbar-menu li {
+  list-style: none;
+}
+.navbar .navbar-right .navbar-menu li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+.section-title span {
+  color: #6436C8;
+}
+
+#hero {
+  padding-top: 5%;
+  font-size: 32pt;
+}
+#hero .hero-title {
+  font-weight: bolder;
+  padding-top: 20%;
+  padding-bottom: 1em;
+}
+#hero .hero-img {
+  text-align: center;
+}
+#hero .hero-btn {
+  font-size: 12pt;
+  font-weight: bolder;
+}
+
+#competency {
+  padding: 4em 0em;
+  width: 100%;
+  background: url("../../public/img/competency-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+#competency .competency-content {
+  width: 100%;
+}
+#competency .competency-content li {
+  background-color: white;
+  margin-top: 2em;
+  width: 100% auto;
+  list-style: none;
+  padding: 1em 4em;
+  border-radius: 100px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1960784314);
+}
+
+#learn-path {
+  width: 100% auto;
+  padding: 3em 0em;
+}
+#learn-path .path-items li {
+  padding: 2em 4em;
+  list-style: none;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1960784314);
+}
+#learn-path .path-items li span {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #EEC249;
+}
+#learn-path .path-items li i {
+  float: right;
+  overflow: hidden;
+  color: #6436C8;
+  font-weight: bold;
+  font-style: normal;
+  background-color: white;
+  padding: 1em 1.2em;
+  position: absolute;
+  margin-top: -6%;
+  margin-left: 21%;
+  border-radius: 1000px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1960784314);
+}
+
+#testimony {
+  padding: 3em;
+}
+#testimony .testy-content li {
+  padding: 2em 4em;
+  list-style: none;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #6436C8;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1960784314);
+}
+
+#gcr-trailer {
+  padding: 8em 0em 4em 0em;
+  text-align: center;
+}
+#gcr-trailer iframe {
+  border-radius: 20px;
+}
+
+#gcr-desc span {
+  color: #6436C8;
+}
+
+#foo-contact {
+  background: url("../../public/img/foo-bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1em;
+}
+#foo-contact .section-title {
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5em 0em;
+  background-color: #EEC249;
+}/*# sourceMappingURL=style.css.map */
