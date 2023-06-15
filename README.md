@@ -1,7 +1,9 @@
 
 # **PENGEMBANGAN MULTIMEDIA INTERAKTIF E-MODUL PENGGUNAAN GOOGLE CLASSROOM BERBASIS WEBSITE BAGI GURU SEKOLAH NUSANTARA BARU**
 
-Kontrak Kerja: [Lihat di sini!](https://github.com/reasnovynt/rsnv-snb-gcr-v1.0-2023/blob/4e45324a080320dcddeecf3a495db1ccfa69f68a/20105241013_Andreas%20Novyanto_SURAT%20KONTRAK%20KERJASAMA.pdf)
+Transkrip Wawancara: [Lihat di sini!](https://github.com/reasnovynt/tp-web/blob/master/public/docs/)
+
+Kontrak Kerja: [Lihat di sini!](https://github.com/reasnovynt/tp-web/blob/master/public/docs/20105241013_Andreas%20Novyanto_SURAT%20KONTRAK%20KERJASAMA.pdf)
 
 Desain UI: [Lihat di sini!](https://www.figma.com/file/KvIj4CSRa1FAxR3R9IRNOG/snb-gcr-v1.0-2023?node-id=0%3A1&t=3Vu2aYvwMHEvCriG-1)
 
